@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <authors>HTTPgrid</authors>
+    <copyright>© 2023 HTTPgrid</copyright>
+    <description>HTTPgrid is a highly scalable webhook as a service that you can use to deliver messages in real-time to third parties.</description>
+    <id>$id$</id>
+    <license type="expression">MIT</license>
+    <releaseNotes></releaseNotes>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <version>$version$</version>
+    <tags></tags>
+    <title>$title$</title>
+  </metadata>
+</package>

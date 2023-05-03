@@ -1,0 +1,36 @@
+{
+  "name": "httpgrid",
+  "version": "0.1.23",
+  "description": "HTTPgrid is a highly scalable webhook as a service that you can use to deliver messages in real-time to third parties.",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "prettier --write --config prettier.config.js --list-different src/**/*.ts",
+    "start": "npm run build && node dist/test.js",
+    "test": "npm run build && mocha dist/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/httpgrid-project/httpgrid-clients"
+  },
+  "author": "HTTPgrid",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/assert": "^1.5.6",
+    "@types/crypto-js": "^4.1.1",
+    "@types/mocha": "^10.0.0",
+    "@types/uuid": "^9.0.1",
+    "assert": "^2.0.0",
+    "mocha": "^10.1.0",
+    "prettier": "^2.8.8",
+    "tslib": "^2.5.0",
+    "tslint": "^6.1.3",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "crypto-js": "^4.1.1",
+    "uuid": "^9.0.0"
+  }
+}

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>1.0.7</Version>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Company>HTTPgrid</Company>
+    <Authors>HTTPgrid</Authors>
+    <Description>HTTPgrid is a highly scalable webhook as a service that you can use to deliver messages in real-time to third parties.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

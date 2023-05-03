@@ -1,0 +1,37 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: DotNetCoreCLI@2
+  displayName: Restore
+  inputs:
+    workingDirectory: dotnet
+    command: restore
+    projects: '**/*.csproj'
+- task: DotNetCoreCLI@2
+  displayName: Build
+  inputs:
+    workingDirectory: dotnet
+    projects: '**/*.csproj'
+    arguments: '--configuration Release'
+- task: DotNetCoreCLI@2
+  displayName: Pack
+  inputs:
+    command: pack
+    packagesToPack: dotnet/HTTPgrid.net/HTTPgrid.net.csproj
+- task: DotNetCoreCLI@2
+  displayName: NuGet Push
+  inputs:
+    command: custom
+    custom: nuget
+    arguments: push $(Build.ArtifactStagingDirectory)/*.nupkg
+      -s https://api.nuget.org/v3/index.json
+      -k $(NuGetApiKey)
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact'
+  inputs:
+    PathtoPublish: '$(build.artifactstagingdirectory)'
+  condition: succeededOrFailed()
