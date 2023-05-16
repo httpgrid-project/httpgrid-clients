@@ -9,7 +9,7 @@
 ```bash
 curl -X 'POST' \
   'https://api.httpgrid.com/api/v1/applications' \
-  -H 'accept: application/json' \ 
+  -H 'Accept: application/json' \ 
   -H 'Authorization: AUTH_TOKEN' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -23,7 +23,7 @@ curl -X 'POST' \
 ```bash
 curl -X 'POST' \
   'https://api.httpgrid.com/api/v1/applications/my-application/endpoints' \
-  -H 'accept: application/json' \
+  -H 'Accept: application/json' \
   -H 'Authorization: AUTH_TOKEN' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -42,7 +42,7 @@ curl -X 'POST' \
 ```bash
 curl -X 'POST' \
   'https://api.httpgrid.com/api/v1/applications/my-application/messages' \
-  -H 'accept: application/json' \ 
+  -H 'Accept: application/json' \ 
   -H 'Authorization: AUTH_TOKEN' \
   -H 'Content-Type: application/json' \
   -d '{
