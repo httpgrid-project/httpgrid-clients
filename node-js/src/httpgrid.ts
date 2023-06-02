@@ -173,12 +173,12 @@ export class HTTPgridMessageClient {
 export class HTTPgridEndpointMessageClient {
   constructor(protected url: string, protected token: string) {}
 
-  public async findAll(
+  public async findAllByEndpointId(
     applicationId: string,
-    messageId: string
+    endpointId: string
   ): Promise<Array<EndpointMessage>> {
     const response = await axios.get<Array<EndpointMessage>>(
-      `${this.url}/applications/${applicationId}/messages/${messageId}/endpoint-messages`,
+      `${this.url}/applications/${applicationId}/endpoints/${endpointId}/endpoint-messages`,
       {
         headers: {
           Authorization: `Bearer ${this.token}`,
