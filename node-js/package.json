@@ -1,6 +1,6 @@
 {
   "name": "httpgrid",
-  "version": "0.1.24",
+  "version": "0.1.25",
   "description": "HTTPgrid is a highly scalable webhook as a service that you can use to deliver messages in real-time to third parties.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -24,7 +24,7 @@
     "assert": "^2.0.0",
     "mocha": "^10.1.0",
     "prettier": "^2.8.8",
-    "tslib": "^2.5.2",
+    "tslib": "^2.5.3",
     "tslint": "^6.1.3",
     "typescript": "^5.1.3"
   },
