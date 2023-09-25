@@ -4,11 +4,11 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>1.0.7</Version>
+    <Version>1.0.8</Version>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Company>HTTPgrid</Company>
     <Authors>HTTPgrid</Authors>
-    <Description>Never fail to deliver a webhook - It's simple. SimplyQ is your fully managed webhooks service that provides the reliability, scalability and security, your team needs to focus on growth, not maintenance.</Description>
+    <Description>Never fail to deliver a webhook - It's simple. HTTPgrid is your fully managed webhooks service that provides the reliability, scalability and security, your team needs to focus on growth, not maintenance.</Description>
   </PropertyGroup>
 
   <ItemGroup>
