@@ -8,7 +8,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Company>HTTPgrid</Company>
     <Authors>HTTPgrid</Authors>
-    <Description>HTTPgrid is a highly scalable webhook as a service that you can use to deliver messages in real-time to third parties.</Description>
+    <Description>Never fail to deliver a webhook - It's simple. SimplyQ is your fully managed webhooks service that provides the reliability, scalability and security, your team needs to focus on growth, not maintenance.</Description>
   </PropertyGroup>
 
   <ItemGroup>

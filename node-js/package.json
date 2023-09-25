@@ -1,7 +1,7 @@
 {
   "name": "httpgrid",
-  "version": "0.1.26",
-  "description": "HTTPgrid is a highly scalable webhook as a service that you can use to deliver messages in real-time to third parties.",
+  "version": "0.1.27",
+  "description": "Never fail to deliver a webhook - It's simple. SimplyQ is your fully managed webhooks service that provides the reliability, scalability and security, your team needs to focus on growth, not maintenance.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
@@ -17,11 +17,11 @@
   "author": "HTTPgrid",
   "license": "MIT",
   "devDependencies": {
-    "@types/assert": "^1.5.6",
+    "@types/assert": "^1.5.7",
     "@types/crypto-js": "^4.1.2",
     "@types/mocha": "^10.0.0",
-    "@types/uuid": "^9.0.3",
-    "assert": "^2.0.0",
+    "@types/uuid": "^9.0.4",
+    "assert": "^2.1.0",
     "mocha": "^10.1.0",
     "prettier": "^3.0.3",
     "tslib": "^2.6.2",
@@ -31,6 +31,6 @@
   "dependencies": {
     "axios": "^1.5.0",
     "crypto-js": "^4.1.1",
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.1"
   }
 }
