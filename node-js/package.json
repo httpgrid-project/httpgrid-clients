@@ -1,6 +1,6 @@
 {
   "name": "httpgrid",
-  "version": "0.1.29",
+  "version": "0.1.30",
   "description": "Never fail to deliver a webhook - It's simple. HTTPgrid is your fully managed webhooks service that provides the reliability, scalability and security, your team needs to focus on growth, not maintenance.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
